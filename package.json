@@ -1,0 +1,38 @@
+{
+  "name": "react-tagsinput",
+  "version": "0.2.5",
+  "description": "Simple react.js component for inputing tags",
+  "main": "react-tagsinput.js",
+  "dependencies": {
+    "react": "^0.12.2"
+  },
+  "devDependencies": {
+    "jsdom": "~3.0.2"
+    , "mocha": "~2.1.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/olahol/react-tagsinput"
+  },
+  "keywords": [
+    "react",
+    "tags",
+    "input",
+    "component",
+    "javascript",
+    "react-component"
+  ],
+  "author": "Ola Holmström",
+  "contributors": [{
+    "name": "Dmitri Voronianski",
+    "email": "dmitri.voronianski@gmail.com"
+  }],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/olahol/react-tagsinput/issues"
+  },
+  "homepage": "https://github.com/olahol/react-tagsinput"
+}
