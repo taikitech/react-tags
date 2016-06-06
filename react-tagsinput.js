@@ -70,6 +70,12 @@
       });
     }
 
+    , componentWillReceiveProps: function (nextProps) {
+      this.setState({
+        tags: nextProps.tags.slice(0)
+      });
+    }
+
     , getTags: function () {
       return this.state.tags;
     }
